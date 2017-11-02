@@ -24,7 +24,6 @@ var students = {
 
 var lecturer = getEmitter();
 
-
 // С началом лекции у всех резко повышаются показатели
 lecturer
     .on('begin', students.Sam, function () {
